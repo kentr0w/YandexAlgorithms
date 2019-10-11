@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Fourth.dir/main.cpp.o  -o Fourth 
