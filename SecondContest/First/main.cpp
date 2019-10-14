@@ -1,6 +1,31 @@
 #include <iostream>
 #include <vector>
+#include <stack>
 
+std::vector<int> SolvebyStack(std::vector<int>& data, std::vector<char>& data_char){
+    std::stack<int> leftStack;
+    std::stack<int> rightStack;
+    std::stack<int> maxLeftStack;
+    std::stack<int>maxRigthStack;
+
+    size_t left, right;
+    left = 0; right = 0;
+
+    for(char index: data_char){
+        if(index = 'R'){
+            ++right;
+            rightStack.push(data[right]);
+            if(data[right] > maxRigthStack.top())
+                maxRigthStack.push(data[right]);
+            else
+                maxRigthStack.push(maxRigthStack.top());
+        } else{
+            ++left;
+        }
+    }
+
+
+}
 
 std::vector<int> Solve(std::vector<int>& data, std::vector<char>& data_char){
     std::vector<int> result;
