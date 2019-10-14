@@ -11,14 +11,61 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="a4d6af66-0e4c-4e1a-b0be-f3f17c673c40" name="Default Changelist" comment="Start second" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+=======
+    <list default="true" id="a4d6af66-0e4c-4e1a-b0be-f3f17c673c40" name="Default Changelist" comment="Start second">
+      <change afterPath="$PROJECT_DIR$/../Fourth/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fourth/.idea/Fourth.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fourth/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fourth/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fourth/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fourth/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fourth/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/First.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/First.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/First.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/First.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/First.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/First.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/First.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/First.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/First.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/First.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/First.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/First.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/First.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/First.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/First.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/First.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/First.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/First.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/First" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/First" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/First.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/First.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
+>>>>>>> a9a6770d0f54908436f6729a22109a462475a117
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -40,83 +87,19 @@
         </entry>
       </file>
     </leaf>
+=======
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+>>>>>>> a9a6770d0f54908436f6729a22109a462475a117
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/main.cpp" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
-  </component>
+  <component name="ProjectId" id="1S4lMOYkeRm772lFwWUJ0xsFrEW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="First" type="b2602c69:ProjectViewProjectNode" />
-              <item name="First" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="First" type="b2602c69:ProjectViewProjectNode" />
-              <item name="First" type="462c0819:PsiDirectoryNode" />
-              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="First" type="b2602c69:ProjectViewProjectNode" />
-              <item name="First" type="462c0819:PsiDirectoryNode" />
-              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
-              <item name="CMakeFiles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="First" type="b2602c69:ProjectViewProjectNode" />
-              <item name="First" type="462c0819:PsiDirectoryNode" />
-              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
-              <item name="CMakeFiles" type="462c0819:PsiDirectoryNode" />
-              <item name="3.13.2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="First" type="b2602c69:ProjectViewProjectNode" />
-              <item name="First" type="462c0819:PsiDirectoryNode" />
-              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
-              <item name="CMakeFiles" type="462c0819:PsiDirectoryNode" />
-              <item name="3.13.2" type="462c0819:PsiDirectoryNode" />
-              <item name="CompilerIdC" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="First" type="b2602c69:ProjectViewProjectNode" />
-              <item name="First" type="462c0819:PsiDirectoryNode" />
-              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
-              <item name="CMakeFiles" type="462c0819:PsiDirectoryNode" />
-              <item name="3.13.2" type="462c0819:PsiDirectoryNode" />
-              <item name="CompilerIdCXX" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="First" type="b2602c69:ProjectViewProjectNode" />
-              <item name="First" type="462c0819:PsiDirectoryNode" />
-              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
-              <item name="CMakeFiles" type="462c0819:PsiDirectoryNode" />
-              <item name="First.dir" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -152,7 +135,12 @@
       <option name="presentableId" value="Default" />
       <updated>1570710472781</updated>
       <workItem from="1570710474262" duration="212000" />
+<<<<<<< HEAD
       <workItem from="1570799922590" duration="2614000" />
+=======
+      <workItem from="1570799922590" duration="2231000" />
+      <workItem from="1570830704183" duration="2511000" />
+>>>>>>> a9a6770d0f54908436f6729a22109a462475a117
     </task>
     <task id="LOCAL-00001" summary="Start second">
       <created>1570710516442</created>
@@ -171,6 +159,7 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+<<<<<<< HEAD
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="2826000" />
   </component>
@@ -200,13 +189,27 @@
       <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
+=======
+>>>>>>> a9a6770d0f54908436f6729a22109a462475a117
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start second" />
     <option name="LAST_COMMIT_MESSAGE" value="Start second" />
   </component>
+<<<<<<< HEAD
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
@@ -233,4 +236,6 @@
       </provider>
     </entry>
   </component>
+=======
+>>>>>>> a9a6770d0f54908436f6729a22109a462475a117
 </project>

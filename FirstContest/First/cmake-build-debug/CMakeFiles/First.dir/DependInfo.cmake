@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/denis/CLionProjects/Yandex/First/First/main.cpp" "/Users/denis/CLionProjects/Yandex/First/First/cmake-build-debug/CMakeFiles/First.dir/main.cpp.o"
+  "/Users/denis/CLionProjects/YandexAlgorithms/FirstContest/First/main.cpp" "/Users/denis/CLionProjects/YandexAlgorithms/FirstContest/First/cmake-build-debug/CMakeFiles/First.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

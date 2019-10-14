@@ -1,3 +1,3 @@
-/Users/denis/CLionProjects/Yandex/First/First/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/denis/CLionProjects/Yandex/First/First/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/denis/CLionProjects/Yandex/First/First/cmake-build-debug/CMakeFiles/First.dir
+/Users/denis/CLionProjects/YandexAlgorithms/FirstContest/First/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/denis/CLionProjects/YandexAlgorithms/FirstContest/First/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/denis/CLionProjects/YandexAlgorithms/FirstContest/First/cmake-build-debug/CMakeFiles/First.dir

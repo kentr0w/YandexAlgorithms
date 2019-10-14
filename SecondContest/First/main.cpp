@@ -10,30 +10,26 @@ std::vector<int> Solve(std::vector<int>& data, std::vector<char>& data_char){
     size_t left, right;
     left = 0; right = 0;
     for (char index : data_char) {
-        switch (index){
-            case 'R':
-                ++right;
-                if(data[right] > maxElement){
-                    maxElement = data[right];
-                    maxIndex = right;
-                }
-                result.push_back(maxElement);
-                break;
-
-            default:
-                ++left;
-                if(left > maxIndex) {
-                    maxElement = INT32_MIN;
-                    for (size_t jindex = left; jindex <= right; ++jindex) {
-                        if (data[jindex] > maxElement) {
-                            maxElement = data[jindex];
-                            maxIndex = (jindex);
-                        }
+        if(index == 'R'){
+            ++right;
+            if(data[right] > maxElement){
+                maxElement = data[right];
+                maxIndex = right;
+            }
+        }
+        else{
+            ++left;
+            if(left > maxIndex) {
+                maxElement = INT32_MIN;
+                for (size_t jindex = left; jindex <= right; ++jindex) {
+                    if (data[jindex] > maxElement) {
+                        maxElement = data[jindex];
+                        maxIndex = (jindex);
                     }
                 }
-                result.push_back(maxElement);
-                break;
+            }
         }
+        result.push_back(maxElement);
     }
     return result;
 }
