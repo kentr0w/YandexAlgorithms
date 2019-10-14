@@ -6,9 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/denis/CLionProjects/YandexAlgorithms/SecondContest/Fourth/main.cpp
+/home/denis/CLionProjects/YandexAlgorithms/SecondContest/Fourth/main.cpp
 iostream
 -
 vector
+-
+istream
+-
+fstream
+-
+algorithm
 -
 
