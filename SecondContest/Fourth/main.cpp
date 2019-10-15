@@ -30,18 +30,11 @@ size_t Partition(std::vector<int>& data, size_t leftSide, size_t rigthSide) {
             right--;
         } while (data[right] > pivot);
 
-
         if(left >= right)
             return right;
 
         std::swap(data[left], data[right]);
-        /*if(left <= right){
-            std::swap(data[left], data[right]);
-            ++left;
-            --right;
-        }*/
     }
-    //return left;
 }
 
 void Qselect(std::vector<int> &data, size_t leftSide, size_t rigthSide){
@@ -68,24 +61,13 @@ int main() {
     for (size_t index = 0; index < count; ++index) {
         data.push_back(nextRand32(firstElement, secondElement));
     }*/
-
-
-    /*//1,1,2
-    //3,1,2
-    //3,4,2
-    //1,1,1
-    std::vector<int>data = {570, 913, 604, 844, 537, 633, 348, 432, 519, 270};
-    Qselect(data, 0, data.size()-1);
-    std::cout<<data[data.size()/2];*/
-
-
-
+    
     std::string qwert = "";
     std::ifstream in("../testData.txt");
-    std::vector<std::vector<int>> data(1000, std::vector<int>(10));
+    std::vector<std::vector<int>> data(1000, std::vector<int>(100));
     if (in.is_open()){
         for (int i = 0; i < 1000; ++i) {
-            for (int j = 0; j < 10; ++j) {
+            for (int j = 0; j < 100; ++j) {
                 in>>data[i][j];
             }
         }
@@ -93,12 +75,12 @@ int main() {
     in.close();
 
     std::ofstream out("../testResult");
-    size_t midle = 10;
+    size_t midle = 100;
     if(out.is_open()){
         for (int i = 0; i < 1000; ++i) {
             out<<"Test № "<< i + 1<<"\n";
 
-            for(int j=0; j<10; ++j)
+            for(int j=0; j<100; ++j)
                 out<<data[i][j]<<" ";
 
             out<<"\n";
@@ -108,15 +90,15 @@ int main() {
             std::vector<int> qwe(data[i]);
             std::sort(qwe.begin(), qwe.end());
 
-            for(int j=0; j<10; ++j)
+            for(int j=0; j<100; ++j)
                 out<<qwe[j]<<" ";
             out<<"\n";
 
-            size_t med = 5;
+            size_t med = 50;
 
             Qselect(data[i], 0, data[i].size()-1);
-            int answer1 = data[i][5];
-            int answer2  = qwe[5];
+            int answer1 = data[i][50];
+            int answer2  = qwe[50];
 
             out<<"Answer 1 = " << answer1 << " Answer 2 = "<< answer2<<"\n";
             if(answer1 == answer2)
