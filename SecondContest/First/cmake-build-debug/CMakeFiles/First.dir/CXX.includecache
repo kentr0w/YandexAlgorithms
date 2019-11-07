@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/denis/CLionProjects/YandexAlgorithms/SecondContest/First/main.cpp
+/Users/denis/CLionProjects/YandexAlgorithms/SecondContest/First/main.cpp
 iostream
 -
 vector
 -
 stack
+-
+algorithm
 -
 
