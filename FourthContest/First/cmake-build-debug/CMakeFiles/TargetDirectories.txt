@@ -1,0 +1,3 @@
+/home/denis/CLionProjects/YandexAlgorithms/FourthContest/First/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/denis/CLionProjects/YandexAlgorithms/FourthContest/First/cmake-build-debug/CMakeFiles/First.dir
+/home/denis/CLionProjects/YandexAlgorithms/FourthContest/First/cmake-build-debug/CMakeFiles/edit_cache.dir

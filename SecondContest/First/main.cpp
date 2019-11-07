@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <stack>
+#include <algorithm>
 
 std::vector<int> Solve(std::vector<int> &data, std::vector<char> &data_char) {
 
@@ -22,7 +23,6 @@ std::vector<int> Solve(std::vector<int> &data, std::vector<char> &data_char) {
             rightStack.push(data[index]);
 
             if (maxRightStack.empty()) {
-
                 maxRightStack.push(data[index]);
             } else {
 
@@ -36,7 +36,7 @@ std::vector<int> Solve(std::vector<int> &data, std::vector<char> &data_char) {
             if (leftStack.empty()) {
 
                 leftStack.push(rightStack.top());
-                maxLeftStack.push(maxRightStack.top());
+                maxLeftStack.push(rightStack.top());
 
                 rightStack.pop();
                 maxRightStack.pop();
@@ -107,4 +107,3 @@ int main() {
         std::cout << cur << " ";
     return 0;
 }
-

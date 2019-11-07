@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Third.dir/main.cpp.o  -o Third 
