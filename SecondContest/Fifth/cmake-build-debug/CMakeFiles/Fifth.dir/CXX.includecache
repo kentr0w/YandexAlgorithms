@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/denis/CLionProjects/YandexAlgorithms/SecondContest/Fifth/main.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+
