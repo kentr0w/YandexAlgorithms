@@ -32,9 +32,37 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/Platform/UnixPaths.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/ProcessorCount.cmake"
   "../CMakeLists.txt"
+<<<<<<< HEAD
+  "CMakeFiles/3.15.3/CMakeCCompiler.cmake"
+  "CMakeFiles/3.15.3/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.15.3/CMakeSystem.cmake"
+  "/home/denis/clion-2019.2.3/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCInformation.cmake"
+  "/home/denis/clion-2019.2.3/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCXXInformation.cmake"
+  "/home/denis/clion-2019.2.3/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
+  "/home/denis/clion-2019.2.3/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCommonLanguageInclude.cmake"
+  "/home/denis/clion-2019.2.3/bin/cmake/linux/share/cmake-3.15/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
+  "/home/denis/clion-2019.2.3/bin/cmake/linux/share/cmake-3.15/Modules/CMakeFindCodeBlocks.cmake"
+  "/home/denis/clion-2019.2.3/bin/cmake/linux/share/cmake-3.15/Modules/CMakeGenericSystem.cmake"
+  "/home/denis/clion-2019.2.3/bin/cmake/linux/share/cmake-3.15/Modules/CMakeInitializeConfigs.cmake"
+  "/home/denis/clion-2019.2.3/bin/cmake/linux/share/cmake-3.15/Modules/CMakeLanguageInformation.cmake"
+  "/home/denis/clion-2019.2.3/bin/cmake/linux/share/cmake-3.15/Modules/CMakeSystemSpecificInformation.cmake"
+  "/home/denis/clion-2019.2.3/bin/cmake/linux/share/cmake-3.15/Modules/CMakeSystemSpecificInitialize.cmake"
+  "/home/denis/clion-2019.2.3/bin/cmake/linux/share/cmake-3.15/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+  "/home/denis/clion-2019.2.3/bin/cmake/linux/share/cmake-3.15/Modules/Compiler/GNU-C.cmake"
+  "/home/denis/clion-2019.2.3/bin/cmake/linux/share/cmake-3.15/Modules/Compiler/GNU-CXX.cmake"
+  "/home/denis/clion-2019.2.3/bin/cmake/linux/share/cmake-3.15/Modules/Compiler/GNU.cmake"
+  "/home/denis/clion-2019.2.3/bin/cmake/linux/share/cmake-3.15/Modules/Internal/CMakeCheckCompilerFlag.cmake"
+  "/home/denis/clion-2019.2.3/bin/cmake/linux/share/cmake-3.15/Modules/Platform/Linux-GNU-C.cmake"
+  "/home/denis/clion-2019.2.3/bin/cmake/linux/share/cmake-3.15/Modules/Platform/Linux-GNU-CXX.cmake"
+  "/home/denis/clion-2019.2.3/bin/cmake/linux/share/cmake-3.15/Modules/Platform/Linux-GNU.cmake"
+  "/home/denis/clion-2019.2.3/bin/cmake/linux/share/cmake-3.15/Modules/Platform/Linux.cmake"
+  "/home/denis/clion-2019.2.3/bin/cmake/linux/share/cmake-3.15/Modules/Platform/UnixPaths.cmake"
+  "/home/denis/clion-2019.2.3/bin/cmake/linux/share/cmake-3.15/Modules/ProcessorCount.cmake"
+=======
   "CMakeFiles/3.13.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.13.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.13.2/CMakeSystem.cmake"
+>>>>>>> fb4f5de73fb7f34dd865b81bbebc0644571395d4
   )
 
 # The corresponding makefile is:

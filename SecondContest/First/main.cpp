@@ -107,4 +107,3 @@ int main() {
         std::cout << cur << " ";
     return 0;
 }
-

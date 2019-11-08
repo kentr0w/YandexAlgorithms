@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 /Users/denis/CLionProjects/YandexAlgorithms/SecondContest/Third/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/denis/CLionProjects/YandexAlgorithms/SecondContest/Third/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/denis/CLionProjects/YandexAlgorithms/SecondContest/Third/cmake-build-debug/CMakeFiles/Third.dir
+=======
+/home/denis/CLionProjects/YandexAlgorithms/SecondContest/Third/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/denis/CLionProjects/YandexAlgorithms/SecondContest/Third/cmake-build-debug/CMakeFiles/Third.dir
+/home/denis/CLionProjects/YandexAlgorithms/SecondContest/Third/cmake-build-debug/CMakeFiles/edit_cache.dir
+>>>>>>> e62235464ec47ebaef57218bdf9a1b6dfb0a48ba

@@ -31,7 +31,10 @@ public:
     }
 };
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> e62235464ec47ebaef57218bdf9a1b6dfb0a48ba
 MinHeap::MinHeap(std::vector<int> data, int count) {
     heap_size = data.size();
     array = new int[data.size() * count + 1];

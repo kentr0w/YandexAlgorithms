@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+/home/denis/clion-2019.2.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/denis/CLionProjects/YandexAlgorithms/SecondContest/First
+=======
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/denis/CLionProjects/YandexAlgorithms/SecondContest/First
+>>>>>>> fb4f5de73fb7f34dd865b81bbebc0644571395d4
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /Users/denis/CLionProjects/YandexAlgorithms/SecondContest/First/cmake-build-debug

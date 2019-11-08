@@ -2,9 +2,12 @@
 #include <vector>
 #include <algorithm>
 
+<<<<<<< HEAD
 
 int DFS_Right(std::vector<int>& coordinate, std::vector<int>& time, int count,  int right, int left,  int timer);
 
+=======
+>>>>>>> e62235464ec47ebaef57218bdf9a1b6dfb0a48ba
 size_t Partition(std::vector<int> &data, std::vector<int> &data_index,
                  int left_range, int right_range) {
     int pivot = data[left_range];
@@ -37,6 +40,7 @@ void Qsort(std::vector<int> &data, std::vector<int> &data_index,
     }
 }
 
+<<<<<<< HEAD
 int DFS_Left(std::vector<int>& coordinate, std::vector<int>& time, int count,  int right, int left,  int timer) {
 
     if(left == -1 && count == right)
@@ -470,6 +474,8 @@ int DFS_Right(std::vector<int>& coordinate, std::vector<int>& time, int count,  
 
 
 
+=======
+>>>>>>> e62235464ec47ebaef57218bdf9a1b6dfb0a48ba
 
 int ChooseBetweenTreePoint(int x_left, int x_current, int x_right, int t_left,
                            int t_right, int current_time) {
@@ -492,6 +498,7 @@ int ChooseBetweenTreePoint(int x_left, int x_current, int x_right, int t_left,
     }
 }
 
+<<<<<<< HEAD
 int couny_by_distance(std::vector<int> &coordinate, std::vector<int> &time, int count, int cur) {
 
     int left = cur - 1;
@@ -682,6 +689,75 @@ void Solve(std::vector<int> &coordinate, std::vector<int> &time, int count) {
         }*/
     }
     isChange ? std::cout << min_time : std::cout << "No solution";
+=======
+void Solve(std::vector<int> &coordinate, std::vector<int> &time, int count) {
+
+    int left, right, timer, current;
+
+    bool isOk, isChange = false;
+
+    int minTime = INT32_MAX;
+
+    for (int index = 0; index < count; ++index) {
+
+        isOk = true;
+        timer = 0;
+        current = index;
+        left = index - 1;
+        right = index + 1;
+        do {
+            if (left < 0) {
+                if (right >= count) {
+                    break;
+                }
+                if ((timer + (coordinate[right] - coordinate[current])) > time[right]) {
+                    isOk = false;
+                    break;
+                }
+                timer += (coordinate[right] - coordinate[current]);
+                current = right;
+                ++right;
+            } else if (right >= count) {
+                if (left < 0) {
+                    break;
+                }
+                if ((timer + (coordinate[current] - coordinate[left])) > time[left]) {
+                    isOk = false;
+                    break;
+                }
+                timer += (coordinate[current] - coordinate[left]);
+                current = left;
+                --left;
+            } else {
+                int betweenTreePoint = ChooseBetweenTreePoint(coordinate[left],
+                                                              coordinate[current],
+                                                              coordinate[right],
+                                                              time[left],
+                                                              time[right],
+                                                              timer);
+                if (betweenTreePoint == -1) {
+                    isOk = false;
+                    break;
+                }
+                if (betweenTreePoint == coordinate[left]) {
+                    timer += (coordinate[current] - coordinate[left]);
+                    current = left;
+                    --left;
+                } else {
+                    timer += (coordinate[right] - coordinate[current]);
+                    current = right;
+                    ++right;
+                }
+            }
+        } while (left >= 0 || right < count);
+
+        if (isOk && minTime > timer) {
+            minTime = timer;
+            isChange = true;
+        }
+    }
+    isChange ? std::cout << minTime : std::cout << "No solution";
+>>>>>>> e62235464ec47ebaef57218bdf9a1b6dfb0a48ba
 }
 
 int main() {
@@ -703,6 +779,10 @@ int main() {
     Solve(coordinate, times, count);
 
     return 0;
+<<<<<<< HEAD
 }
 
 
+=======
+}
+>>>>>>> e62235464ec47ebaef57218bdf9a1b6dfb0a48ba

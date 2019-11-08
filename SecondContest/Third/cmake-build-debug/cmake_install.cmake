@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: /Users/denis/CLionProjects/YandexAlgorithms/SecondContest/Third
+=======
+# Install script for directory: /home/denis/CLionProjects/YandexAlgorithms/SecondContest/Third
+>>>>>>> e62235464ec47ebaef57218bdf9a1b6dfb0a48ba
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -27,6 +31,14 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
+<<<<<<< HEAD
+=======
+# Install shared libraries without execute permission?
+if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
+endif()
+
+>>>>>>> e62235464ec47ebaef57218bdf9a1b6dfb0a48ba
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
@@ -40,5 +52,9 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
+<<<<<<< HEAD
 file(WRITE "/Users/denis/CLionProjects/YandexAlgorithms/SecondContest/Third/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+=======
+file(WRITE "/home/denis/CLionProjects/YandexAlgorithms/SecondContest/Third/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> e62235464ec47ebaef57218bdf9a1b6dfb0a48ba
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

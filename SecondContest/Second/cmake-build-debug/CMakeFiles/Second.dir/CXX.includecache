@@ -6,9 +6,18 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
 /Users/denis/CLionProjects/YandexAlgorithms/SecondContest/Second/main.cpp
+=======
+/home/denis/CLionProjects/YandexAlgorithms/SecondContest/Second/main.cpp
+>>>>>>> e62235464ec47ebaef57218bdf9a1b6dfb0a48ba
 iostream
 -
 vector
 -
+<<<<<<< HEAD
+=======
+algorithm
+-
+>>>>>>> e62235464ec47ebaef57218bdf9a1b6dfb0a48ba
 

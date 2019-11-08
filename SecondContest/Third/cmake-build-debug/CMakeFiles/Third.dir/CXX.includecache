@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
 /Users/denis/CLionProjects/YandexAlgorithms/SecondContest/Third/main.cpp
+=======
+/home/denis/CLionProjects/YandexAlgorithms/SecondContest/Third/main.cpp
+>>>>>>> e62235464ec47ebaef57218bdf9a1b6dfb0a48ba
 iostream
 -
 vector
